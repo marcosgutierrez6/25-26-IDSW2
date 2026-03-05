@@ -44,9 +44,9 @@ A partir del documento de [legibilidad](legibilidad.md), se pide:
 |**Comentarios**|Ejemplo +|No tengo comentarios||
 ||Ejemplo -|No tengo comentarios|PR corrección
 ||Ejemplo -|No tengo comentarios|PR corrección
-|**Formato**|Ejemplo +|
-||Ejemplo -||PR corrección
-||Ejemplo -||PR corrección
+|**Formato**|Ejemplo +|Utiliza líneas en blanco para separar perfectamente los grupos lógicos (entrada de datos, cálculo y salida). Aplica correctamente la sangría proporcional a la jerarquía de las clases y métodos. Declara las variables justo en el momento de su uso y mantiene líneas cortas, facilitando la lectura vertical.|<a href="https://github.com/marcosgutierrez6/23-24-prg1/blob/main/entregas/gutierrezMarcos/reto-004/Decostruccion.java">Archivo</a>|
+||Ejemplo -|Se movió el atributo acumulacionConsumo al inicio de la clase para respetar la jerarquía estructural.Las variables locales se reubicaron justo antes de su primer uso, en lugar de agruparlas al inicio del main. Esto minimiza su tiempo de vida, reduce la carga mental al leer y previene errores de sobreescritura.|<a href="https://github.com/marcosgutierrez6/23-24-prg1/pull/1">PR corección</a>
+||Ejemplo -|Se corrigió la legibilidad dividiendo los System.out.println que superaban el límite de 80-120 caracteres. Se aplicaron saltos de línea y sangría proporcional respetando la jerarquía de los bloques if/else. Esto permite una lectura estructurada de forma vertical, eliminando la necesidad de hacer scroll horizontal.|<a href="https://github.com/marcosgutierrez6/23-24-prg1/pull/1">PR corección</a>
 |**Estándares**|Ejemplo +|
 ||Ejemplo -||PR corrección
 ||Ejemplo -||PR corrección
